@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "APV: Always Most Good Quality",
+    "version": "1.0.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://*.aiv-cdn.net/*",
+        "https://www.amazon.co.jp/gp/video/detail/*"
+    ]
+}
